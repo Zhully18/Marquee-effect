@@ -1,0 +1,52 @@
+.nav{
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    /* make navigation bar fixed and other section can scroll past*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 1000;
+}
+.nav img{
+    margin-left: 50px;
+}
+.list{
+    display: flex;
+    margin-right: 50px;
+}
+.nav-list{
+    margin-left: 70px;
+    margin-right: 50px;
+}
+.mega-menu {
+    display: flex;
+    width: 650px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .20);
+  }
+  
+.mega-menu-column {
+    margin-right: 20px;
+}
+.mega-menu-column h5{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.mega-menu-column ul{
+    list-style: none;
+}
+@media screen and (max-width:930px) {
+    .mega-menu {
+        display: list-item;
+        max-height: 550px;
+        overflow-y: scroll 350px;
+    }
+    
+}
+  
+  /* Add any additional styling as needed */
+  

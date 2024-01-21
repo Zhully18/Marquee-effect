@@ -1,0 +1,13 @@
+.clientsImgs{
+    margin: 1rem 0;
+    display: flex;
+}
+.clientsImgs img{
+    object-fit: cover;
+    width: 250px;
+    margin: auto;
+    padding: 0.25rem;
+}
+.app{
+    margin-top: 200px;
+}
