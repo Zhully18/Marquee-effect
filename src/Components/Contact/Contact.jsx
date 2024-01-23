@@ -8,7 +8,12 @@ import facebook from '../Asset/facebook.png'
 
 const Contact = () => {
   return (
+    <>
+    <div className="title">
+     
+    </div>
     <div className="app">
+    <h1 className='title'>Our Clients</h1>
     <Marquee direction='right' speed={100} delay={5}>
     <div className="clientsImgs">
             <img src={Walmart} alt="" className="clientImg" />
@@ -20,6 +25,7 @@ const Contact = () => {
     </div>
     </Marquee>
     </div>
+    </>
   )
 }
 
